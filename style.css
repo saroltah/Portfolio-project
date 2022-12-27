@@ -1,0 +1,32 @@
+body {
+  font-family: Poppins, sans-serif;
+}
+.hero h1 {
+  font-family: Playfair display, serif;
+  font-size: 96px;
+}
+.hero {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(116, 203, 199) 0%,
+    rgb(220, 246, 200) 90%
+  );
+  text-align: center;
+  padding: 160px 20px;
+}
+.hello-text {
+  text-align: 36px;
+  font-weight: bold;
+}
+.hero h2 {
+  font-size: 24px;
+  color: #272142;
+  line-height: 2;
+}
+.btn-branding {
+  background: #dcf6c8;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
