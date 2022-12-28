@@ -1,3 +1,12 @@
+:root {
+  --primary-background: radial-gradient(
+    circle at 10% 20%,
+    rgb(116, 203, 199) 0%,
+    rgb(220, 246, 200) 90%
+  );
+  --button-color: #dcf6c8;
+  --secondary-text-color: #272142;
+}
 body {
   font-family: Poppins, sans-serif;
 }
@@ -6,11 +15,7 @@ body {
   font-size: 96px;
 }
 .hero {
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(116, 203, 199) 0%,
-    rgb(220, 246, 200) 90%
-  );
+  background: var(--primary-background);
   text-align: center;
   padding: 160px 20px;
 }
@@ -20,11 +25,11 @@ body {
 }
 .hero h2 {
   font-size: 24px;
-  color: #272142;
+  color: var(--secondary-text-color);
   line-height: 2;
 }
 .btn-branding {
-  background: #dcf6c8;
+  background: var(--button-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
