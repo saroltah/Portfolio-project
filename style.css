@@ -6,12 +6,13 @@
   );
   --button-color: #dcf6c8;
   --secondary-text-color: #272142;
+  --heading-font-family: Playfair display, serif;
 }
 body {
   font-family: Poppins, sans-serif;
 }
 .hero h1 {
-  font-family: Playfair display, serif;
+  font-family: var(--heading-font-family);
   font-size: 96px;
 }
 .hero {
