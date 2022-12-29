@@ -7,6 +7,7 @@
   --button-color: #dcf6c8;
   --secondary-text-color: #272142;
   --heading-font-family: Playfair display, serif;
+  --secondary-button-color: #63aaa3;
 }
 body {
   font-family: Poppins, sans-serif;
@@ -36,3 +37,49 @@ body {
   line-height: 27px;
   padding: 15px 30px;
 }
+.city-name {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+.city-description {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+}
+.learn-more-btn {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: var(--secondary-button-color);
+  border: 1px solid var(--secondary-button-color);
+  text-align: center;
+}
+.city-image {
+  max-width: 500px;
+}
+.col-6 {
+  padding: 30px 30px;
+}
+@media (max-width: 960px) {
+  .city-name {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero {
+    padding: 100px 30px;
+  }
+  .col-6,
+  .learn-more-btn {
+    text-align: justify;
+    margin-bottom: 50px;
+    max-width: 300px;
+  }
+  .learn-more-btn {
+    text-align: center;
+  }
+} ;
