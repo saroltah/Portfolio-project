@@ -73,13 +73,11 @@ body {
   .hero {
     padding: 100px 30px;
   }
-  .col-6,
+
   .learn-more-btn {
-    text-align: justify;
+    display: block;
+    text-align: center;
     margin-bottom: 50px;
     max-width: 300px;
-  }
-  .learn-more-btn {
-    text-align: center;
   }
 } ;
