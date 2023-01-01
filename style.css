@@ -58,9 +58,20 @@ body {
 .city-image {
   max-width: 500px;
 }
-.col-6,
+
 .col {
   padding: 50px 30px;
+}
+@media (max-width: 1200px) {
+  .city-name {
+    font-size: 50px;
+  }
+  .hero {
+    padding: 140px 30px;
+  }
+  .hero h1 {
+    font-size: 80px;
+  }
 }
 @media (max-width: 991px) {
   .city-name {
@@ -71,6 +82,9 @@ body {
   }
   .hero h1 {
     font-size: 50px;
+  }
+  .hero h2 {
+    line-height: 1.5;
   }
   .hero {
     padding: 100px 30px;
@@ -93,10 +107,5 @@ body {
   }
   .city-description {
     padding: 0px 15px;
-  }
-}
-@media (max-width: 1990px) {
-  .city-name {
-    font-size: 56px;
   }
 }
