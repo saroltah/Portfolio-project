@@ -95,3 +95,8 @@ body {
     padding: 0px 15px;
   }
 }
+@media (max-width: 1990px) {
+  .city-name {
+    font-size: 56px;
+  }
+}
