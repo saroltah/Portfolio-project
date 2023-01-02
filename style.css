@@ -63,6 +63,14 @@ body {
 .col {
   padding: 50px 30px;
 }
+.learn-about-me-link {
+  color: var(--secondary-button-color);
+  font-style: italic;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  text-decoration: none;
+}
 @media (max-width: 1200px) {
   .city-name {
     font-size: 50px;
