@@ -42,7 +42,8 @@ body {
   font-size: 64px;
   font-family: var(--heading-font-family);
 }
-.city-description {
+.city-description,
+.about-me-paragraph {
   font-size: 16px;
   line-height: 30px;
   text-align: justify;
@@ -71,6 +72,28 @@ body {
   padding-top: 20px;
   text-decoration: none;
 }
+.my-image {
+  max-height: 560px;
+  padding: 20px 20px;
+}
+.about-secton h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--secondary-text-color);
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-text-section {
+  margin-top: -20px;
+}
+
 @media (max-width: 1200px) {
   .city-name {
     font-size: 50px;
@@ -116,5 +139,14 @@ body {
   }
   .city-description {
     padding: 0px 15px;
+  }
+  .about-section {
+    text-align: center;
+  }
+  .my-image {
+    margin-top: 30px;
+  }
+  .about-section {
+    padding-bottom: 0px;
   }
 }
