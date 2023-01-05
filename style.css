@@ -161,12 +161,13 @@ body {
   .my-image {
     margin-top: 30px;
   }
-  .content-container {
+  .content-container,
+  .city-container {
     padding-bottom: 0px;
     text-align: center;
   }
   .best-sights-name {
-    font-size: 13px;
+    font-size: 14px;
   }
   .wiki-link {
     font-size: 14px;
