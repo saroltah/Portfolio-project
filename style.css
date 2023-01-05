@@ -64,7 +64,7 @@ body {
 .col {
   padding: 50px 30px;
 }
-.learn-about-me-link {
+.learn-about-basic-link {
   color: var(--secondary-button-color);
   font-style: italic;
   display: block;
@@ -77,16 +77,38 @@ body {
   padding: 20px 20px;
 }
 
-.content-container h2 {
-  font-size: 18px;
+.content-container h2,
+.city-container h2 {
   font-weight: bold;
   color: var(--secondary-text-color);
 }
-.content-container {
+.content-container h2 {
+  font-size: 18px;
+}
+.city-container h2 {
+  font-size: 25px;
+}
+.city-container {
+  text-align: center;
+}
+.content-container,
+.city-container {
   padding: 160px 20px;
 }
 .content-inner {
   margin-top: -20px;
+}
+.best-sights-name {
+  font-size: 18px;
+}
+.wiki {
+  color: var(--secondary-button-color);
+}
+.wiki-link {
+  font-size: 15px;
+}
+.my-cities-name {
+  font-size: 40px;
 }
 
 @media (max-width: 1200px) {
@@ -142,5 +164,14 @@ body {
   .content-container {
     padding-bottom: 0px;
     text-align: center;
+  }
+  .best-sights-name {
+    font-size: 13px;
+  }
+  .wiki-link {
+    font-size: 13px;
+  }
+  .my-cities-name {
+    font-size: 18px;
   }
 }
