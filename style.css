@@ -121,6 +121,12 @@ body {
   .hero h1 {
     font-size: 85px;
   }
+  .contact-form {
+    padding-top: 30px;
+  }
+  .icon {
+    color: var(--secondary-button-color);
+  }
 }
 @media (max-width: 991px) {
   .city-name {
