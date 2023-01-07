@@ -220,4 +220,7 @@ body {
   .city-container {
     padding-top: 100px;
   }
+  .menu {
+    font-size: 20px;
+  }
 }
