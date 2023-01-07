@@ -19,7 +19,7 @@ body {
 .hero {
   background: var(--primary-background);
   text-align: center;
-  padding: 160px 20px;
+  padding: 200px 20px;
 }
 .hello-text {
   text-align: 36px;
@@ -93,7 +93,7 @@ body {
 }
 .content-container,
 .city-container {
-  padding: 160px 20px;
+  padding: 200px 20px;
 }
 .content-inner {
   margin-top: -20px;
@@ -110,22 +110,43 @@ body {
 .my-cities-name {
   font-size: 40px;
 }
+.navigation-bar,
+.navigation-bar-2 {
+  padding: 20px 56.5px;
+  max-width: 100%;
+  position: fixed;
+}
+.navigation-bar {
+  background-color: white;
+}
+.icon {
+  color: var(--secondary-button-color);
+}
+.menu {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.navigation-bar-2 {
+  background-color: var(--button-color);
+}
+
+.menu-2 {
+  color: black;
+  text-decoration: none;
+}
 
 @media (max-width: 1200px) {
   .city-name {
     font-size: 50px;
   }
   .hero {
-    padding: 140px 30px;
+    padding: 180px 30px;
   }
   .hero h1 {
     font-size: 85px;
   }
   .contact-form {
     padding-top: 30px;
-  }
-  .icon {
-    color: var(--secondary-button-color);
   }
 }
 @media (max-width: 991px) {
@@ -142,7 +163,7 @@ body {
     line-height: 1.5;
   }
   .hero {
-    padding: 100px 30px;
+    padding: 140px 30px;
   }
 
   .learn-more-btn {
@@ -169,6 +190,7 @@ body {
   }
   .content-container,
   .city-container {
+    padding-top: 140px;
     padding-bottom: 0px;
     text-align: center;
   }
@@ -180,5 +202,22 @@ body {
   }
   .my-cities-name {
     font-size: 18px;
+  }
+}
+@media (max-width: 575px) {
+  .navigation-bar,
+  .navigation-bar-2 {
+    position: unset;
+    background: linear-gradient(
+      180deg,
+      rgb(220, 246, 200) 30%,
+      rgb(255, 255, 255) 100%
+    );
+    padding-bottom: 40px;
+    padding-left: 20px;
+  }
+  .content-container,
+  .city-container {
+    padding-top: 100px;
   }
 }
