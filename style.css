@@ -229,7 +229,7 @@ h4 {
   .my-image {
     max-width: 220px;
     margin-bottom: 40px;
-    margin-top: -60px;
+    margin-top: -30px;
     padding: 0px;
     border-radius: 60%;
     border: 3px solid var(--secondary-button-color);
@@ -277,5 +277,8 @@ h4 {
   }
   .menu {
     font-size: 20px;
+  }
+  .my-image {
+    margin-top: -60px;
   }
 }
