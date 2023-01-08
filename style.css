@@ -75,6 +75,7 @@ body {
 .my-image {
   max-height: 560px;
   padding: 20px 20px;
+  border-radius: 6%;
 }
 
 .content-container h2,
@@ -226,7 +227,12 @@ h4 {
   }
 
   .my-image {
-    margin-top: 30px;
+    max-width: 220px;
+    margin-bottom: 40px;
+    margin-top: -60px;
+    padding: 0px;
+    border-radius: 60%;
+    border: 3px solid var(--secondary-button-color);
   }
   .content-container,
   .city-container {
