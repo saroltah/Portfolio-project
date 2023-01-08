@@ -8,6 +8,11 @@
   --secondary-text-color: #272142;
   --heading-font-family: Playfair display, serif;
   --secondary-button-color: #63aaa3;
+  --navigation-background: linear-gradient(
+    180deg,
+    rgb(220, 246, 200) 30%,
+    rgb(255, 255, 255) 100%
+  );
 }
 body {
   font-family: Poppins, sans-serif;
@@ -69,8 +74,11 @@ body {
   font-style: italic;
   display: block;
   text-align: center;
-  padding-top: 20px;
+  padding: 20px 0px;
   text-decoration: none;
+}
+.learn-about-basic-link:hover {
+  text-decoration: underline;
 }
 .my-image {
   max-height: 560px;
@@ -94,7 +102,7 @@ body {
 }
 .content-container,
 .city-container {
-  padding: 200px 20px;
+  padding: 200px 20px 30px 20px;
 }
 .content-inner {
   margin-top: -20px;
@@ -132,11 +140,7 @@ body {
   text-decoration: none;
 }
 .navigation-bar-2 {
-  background: linear-gradient(
-    180deg,
-    rgb(220, 246, 200) 30%,
-    rgb(255, 255, 255) 100%
-  );
+  background: var(--navigation-background);
 }
 
 .menu-2 {
@@ -173,6 +177,10 @@ h4 {
 .front-icon:hover,
 .front-link:hover {
   color: black;
+}
+
+.contact-page {
+  padding-bottom: 100px;
 }
 
 @media (max-width: 1200px) {
@@ -258,16 +266,15 @@ h4 {
   .front-icon {
     margin-bottom: 0px;
   }
+  .contact-page {
+    padding-bottom: 0px;
+  }
 }
 @media (max-width: 575px) {
   .navigation-bar,
   .navigation-bar-2 {
     position: unset;
-    background: linear-gradient(
-      180deg,
-      rgb(220, 246, 200) 30%,
-      rgb(255, 255, 255) 100%
-    );
+    background: var(--navigation-background);
     padding-bottom: 40px;
     padding-left: 20px;
   }
